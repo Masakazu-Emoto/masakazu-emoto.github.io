@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+Past Position
+======
+Assistant Professor, Apr 2022 - Mar 2023, Kanagawa University, Department of Economics, Japan, Kanagawa
+
 Education
 ======
 * Ph.D in Economics, Kobe University, 2022
@@ -16,25 +20,14 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Kanagawa University, Department of Economics:
+  * 2022 Spring: Microeconomics, Macroeconomics
+  * 2022 Autumn: Microeconomics
   
 Skills
 ======
-* Programming
-  * MATLAB, JULIA, Python, Fortran
+* Software
+  * MATLAB, Julia, Python, Fortran, LATEX
 * Language
   * Japanese, English
 
@@ -58,8 +51,8 @@ Teaching
   
 Grants
 ======
-* Jul 2023 - Jun 2024: Murata Science and Education Foundation Research Grant
-* Apr 2024 -         : Grant-in-Aid for Early-Career Scientists (No.24K16352)
+* Murata Science and Education Foundation Research Grant (M23助人008, Jul 2023 - Jun 2024)
+* Grant-in-Aid for Early-Career Scientists (No.24K16352, Apr 2024 -)
 
 Referee Services
 ======
