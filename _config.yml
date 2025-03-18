@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Masakazu Emoto"
-  pronouns         : "He/his"
+  pronouns         : # she/her
   bio              : "Specially Appointed Assistant Professor"
   location         : "Kunitachi, Tokyo, Japan"
   employer         : "Hitotsubashi Univrsity, Hitotsubashi Institute for Advanced Study"
