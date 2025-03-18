@@ -9,7 +9,7 @@ redirect_from:
 
 Thanks for visiting my website!
 
-I am an Specially Appointed Assistant Professor at Hitotsubashi Institute for Advanced Study.
+I am an Specially Appointed Assistant Professor at Hitotsubashi Institute for Advanced Study (HIAS).
 
 My main research interests are macroeconomics and the heterogeneity of economic agents.
 
