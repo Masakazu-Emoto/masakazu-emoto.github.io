@@ -44,7 +44,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Presentations
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
@@ -59,7 +59,7 @@ Teaching
 Grants
 ======
 * Jul 2023 - Jun 2024: Murata Science and Education Foundation Research Grant
-* Apr 2024 -              : Grant-in-Aid for Early-Career Scientists (No.24K16352)
+* Apr 2024 -         : Grant-in-Aid for Early-Career Scientists (No.24K16352)
 
 Referee Services
 ======
