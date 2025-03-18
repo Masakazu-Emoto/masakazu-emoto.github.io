@@ -9,6 +9,10 @@ redirect_from:
 
 Thanks for visiting my website!
 
+I am an Specially Appointed Assistant Professor at Hitotsubashi Institute for Advanced Study.
+
+My main research interests are macroeconomics and the heterogeneity of economic agents.
+
 Links
 ------
 [My github page](https://github.com/Masakazu-Emoto)
