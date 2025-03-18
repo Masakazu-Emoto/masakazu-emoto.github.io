@@ -17,12 +17,6 @@ Education
 ======
 * Ph.D in Economics, Kobe University, 2022
 * M.S. in Economics, Kobe University, 2019
-
-Work experience
-======
-* Kanagawa University, Department of Economics:
-  * 2022 Spring: Microeconomics, Macroeconomics
-  * 2022 Autumn: Microeconomics
   
 Skills
 ======
@@ -43,8 +37,12 @@ Presentations
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
+Teaching Experience
 ======
+* Kanagawa University, Department of Economics:
+  * 2022 Spring: Microeconomics, Macroeconomics
+  * 2022 Autumn: Microeconomics
+
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
@@ -56,4 +54,4 @@ Grants
 
 Referee Services
 ======
-* Macroeconomic Dynamics(3), Mathematical Social Science (2)
+* Macroeconomic Dynamics (3), Mathematical Social Science (2)
