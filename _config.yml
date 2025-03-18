@@ -24,10 +24,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Masakazu Emoto"
-  pronouns         : # example: "she/her"  
+  pronouns         : "He/his"
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Kunitachi, Tokyo, Japan"
+  employer         : "Hitotsubashi Univrsity"
   uri              : # URL
   email            : "masakazu.emoto@gmail.com" 
 
