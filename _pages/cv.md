@@ -11,9 +11,8 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Economics, Kobe University, 2022
+* M.S. in Economics, Kobe University, 2019
 
 Work experience
 ======
@@ -34,12 +33,10 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * MATLAB, JULIA, Python, Fortran
+* Language
+  * Japanese, English
 
 Publications
 ======
@@ -59,6 +56,11 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Grants
 ======
-* Currently signed in to 43 different slack teams
+* Jul 2023 - Jun 2024: Murata Science and Education Foundation Research Grant
+* Apr 2024 -              : Grant-in-Aid for Early-Career Scientists (No.24K16352)
+
+Referee Services
+======
+* Macroeconomic Dynamics(3), Mathematical Social Science (2)
