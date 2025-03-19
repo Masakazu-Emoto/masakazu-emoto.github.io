@@ -43,10 +43,6 @@ Teaching Experience
   * 2022 Spring: Microeconomics, Macroeconomics
   * 2022 Autumn: Microeconomics
 
-#<ul>{% for post in site.teaching reversed %}
-  #{% include archive-single-cv.html %}
-  #{% endfor %}</ul>
-  
 Grants
 ======
 * Murata Science and Education Foundation Research Grant (M23助人008, Jul 2023 - Jun 2024)
