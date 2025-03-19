@@ -1,18 +1,14 @@
 ---
-title: "Kanagawa University"
+title: "Teaching experience "
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2015-spring-teaching-1
-venue: "Department of Economics"
-date:
-location: "Yokohama, Japan"
+type: ""
+permalink: /teaching/2014-spring-teaching-1
+venue: ""
+date:　""
+location: ""
 ---
 
-2022 April
-======
-* Microeconomics
-* Macroeconomics
-
-2022 Autumn
-======
-* Microeconomics
+Kanagawa University Department of Economics:
+====== 
+* 2022 Spring: Microeconomics, Macroeconomics
+* 2022 Autumn: Microeconomics
