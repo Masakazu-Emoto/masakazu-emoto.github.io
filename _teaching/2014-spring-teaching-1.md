@@ -1,11 +1,11 @@
 ---
-title: "Teaching experience "
+title: "Teaching Experience "
 collection: teaching
-type: ""
+type:
 permalink: /teaching/2014-spring-teaching-1
-venue: ""
-date:　""
-location: ""
+venue:
+date:
+location:
 ---
 
 Kanagawa University Department of Economics:
