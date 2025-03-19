@@ -33,8 +33,8 @@ Publications
   
 Presentations
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
+<ul>{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
 Teaching Experience
@@ -43,8 +43,8 @@ Teaching Experience
   * 2022 Spring: Microeconomics, Macroeconomics
   * 2022 Autumn: Microeconomics
 
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
+<ul>{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Grants
