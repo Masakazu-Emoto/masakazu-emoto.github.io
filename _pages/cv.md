@@ -43,9 +43,9 @@ Teaching Experience
   * 2022 Spring: Microeconomics, Macroeconomics
   * 2022 Autumn: Microeconomics
 
-<ul>{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+#<ul>{% for post in site.teaching reversed %}
+  #{% include archive-single-cv.html %}
+  #{% endfor %}</ul>
   
 Grants
 ======
