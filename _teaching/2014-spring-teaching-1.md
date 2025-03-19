@@ -2,7 +2,7 @@
 title: "Kanagawa University"
 collection: teaching
 type: "Undergraduate course"
-permalink: 
+permalink: /teaching/2015-spring-teaching-1
 venue: "Department of Economics"
 date:
 location: "Yokohama, Japan"
