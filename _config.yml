@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "emoto"
 title                    : "Masakazu EMOTO"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Masakazu Emoto"
+description              : &description "Macroeconomist working on heterogeneous-agent and firm-dynamics models, public economics, tax evasion, tax avoidance, and informality."
 url                      : https://masakazu-emoto.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Masakazu-Emoto/masakazu-emoto.github.io"
@@ -25,10 +25,10 @@ author:
   avatar           : "profile.png"
   name             : "Masakazu Emoto"
   pronouns         : # she/her
-  bio              : "Specially Appointed Assistant Professor"
-  location         : "Kunitachi, Tokyo, Japan"
+  bio              : "Specially Appointed Lecturer"
+  location         : "Tokyo, Japan"
   employer         : "Hitotsubashi University"
-  uri              : # URL
+  uri              : "https://hri.ad.hit-u.ac.jp/html/100001690_profile_en.html"
   email            : "masakazu.emoto@gmail.com" 
 
   # Academic websites
@@ -77,12 +77,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+    title: 'Peer-Reviewed Articles'
+  workingpapers:
+    title: 'Working Papers'
+  workinprogress:
+    title: 'Work in Progress'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -294,7 +294,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Tokyo # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

@@ -1,0 +1,20 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
+{% include base_path %}
+
+<h2>Working Papers</h2><hr />
+{% assign working_papers = site.publications | where: "category", "workingpapers" | sort: "order" %}
+{% for post in working_papers %}
+  {% include research-single.html %}
+{% endfor %}
+
+<h2>Work in Progress</h2><hr />
+{% assign work_in_progress = site.publications | where: "category", "workinprogress" | sort: "order" %}
+{% for post in work_in_progress %}
+  {% include research-single.html %}
+{% endfor %}

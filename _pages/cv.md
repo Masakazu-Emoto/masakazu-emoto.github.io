@@ -9,45 +9,54 @@ redirect_from:
 
 {% include base_path %}
 
-Past Position
-======
-Assistant Professor, Apr 2022 - Mar 2023, Kanagawa University, Department of Economics, Japan, Kanagawa
+## Current Positions
 
-Education
-======
-* Ph.D in Economics, Kobe University, 2022
-* M.S. in Economics, Kobe University, 2019
-  
-Skills
-======
-* Software
-  * MATLAB, Julia, Python, Fortran, LATEX
-* Language
-  * Japanese, English
+- **Specially Appointed Lecturer**, Hitotsubashi Institute for Advanced Study, Hitotsubashi University, April 2023–present
+- **Project Researcher**, Graduate School of Economics, the University of Tokyo, July 2025–present  
+  Previous appointment: November 2024–March 2025
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Presentations
-======
-<ul>{% for post in site.talks reversed %}
-  {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching Experience
-======
-* Kanagawa University, Department of Economics:
-  * 2022 Spring: Microeconomics, Macroeconomics
-  * 2022 Autumn: Microeconomics
+## Previous Position
 
-Grants
-======
-* Murata Science and Education Foundation Research Grant (M23助人008, Jul 2023 - Jun 2024)
-* Grant-in-Aid for Early-Career Scientists (No.24K16352, Apr 2024 -)
+- **Specially Appointed Research Associate**, Faculty of Economics, Kanagawa University, April 2022–March 2023
 
-Referee Services
-======
-* Macroeconomic Dynamics (3), Mathematical Social Science (2)
+## Education
+
+- Ph.D. in Economics, Kobe University, 2022
+- M.A. in Economics, Kobe University, 2019
+
+## Research Fields
+
+Macroeconomics; Public Economics; Heterogeneous-Agent Models; Firm Dynamics; Tax Evasion and Avoidance; Informal Economy
+
+## Peer-Reviewed Publications
+
+{% assign peer_reviewed = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+{% for post in peer_reviewed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+
+## Working Papers
+
+{% assign working_papers = site.publications | where: "category", "workingpapers" | sort: "order" %}
+{% for post in working_papers %}
+- [{{ post.title }}]({{ post.url | relative_url }}){% if post.coauthors %}, {{ post.coauthors | replace: "With ", "with " }}{% endif %}
+{% endfor %}
+
+## Teaching Experience
+
+- Intermediate Macroeconomics, undergraduate and graduate, Hitotsubashi University, 2026
+- Macroeconomics, undergraduate, Kanagawa University, 2022
+- Microeconomics, undergraduate, Kanagawa University, 2022
+
+## Grants
+
+- Grant-in-Aid for Early-Career Scientists, JSPS KAKENHI No. 24K16352, April 2024–present
+- Murata Science and Education Foundation Research Grant, July 2023–June 2024
+
+## Referee Service
+
+*Macroeconomic Dynamics*; *Mathematical Social Sciences*
+
+## Software
+
+MATLAB; Python; Julia; Fortran; LaTeX

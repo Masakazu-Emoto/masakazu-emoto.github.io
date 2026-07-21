@@ -1,0 +1,49 @@
+/* Masakazu Emoto Academic Pages theme — light variant.
+   Role separation:
+   Primary   = Black     #000000
+   Deep Blue = Accent    #11114b
+   White     = Background #FFFFFF
+   Pale Blue = Secondary #E7EEF5
+*/
+
+$primary-color : #000000;
+$gray          : #000000;
+$dark-gray     : #000000;
+$darker-gray   : #000000;
+$light-gray    : #E7EEF5;
+$lighter-gray  : #E7EEF5;
+
+/* Semantic states reuse only the approved palette. */
+$danger-color  : #000000;
+$info-color    : #11114b;
+$notice-color  : #E7EEF5;
+$success-color : #000000;
+$warning-color : #11114b;
+
+$border-radius            : 4px;
+$box-shadow               : 0 1px 2px rgba(17, 17, 75, 0.14);
+$global-transition        : all 0.2s ease-in-out;
+$masthead-height          : 70px;
+$navicon-width            : 28px;
+$navicon-height           : 4px;
+$sidebar-link-max-width   : 250px;
+$sidebar-screen-min-width : 1024px;
+
+:root {
+  --global-base-color                : #000000;
+  --global-bg-color                  : #FFFFFF;
+  --global-footer-bg-color           : #E7EEF5;
+  --global-border-color              : #E7EEF5;
+  --global-dark-border-color         : #11114b;
+  --global-code-background-color     : #E7EEF5;
+  --global-code-text-color           : #000000;
+  --global-fig-caption-color         : #000000;
+  --global-link-color                : #000000;
+  --global-link-color-hover          : #11114b;
+  --global-link-color-visited        : #000000;
+  --global-masthead-link-color       : #FFFFFF;
+  --global-masthead-link-color-hover : #FFFFFF;
+  --global-text-color                : #000000;
+  --global-text-color-light          : #000000;
+  --global-thead-color               : #E7EEF5;
+}

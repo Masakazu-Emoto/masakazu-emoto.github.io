@@ -1,30 +1,48 @@
 ---
 permalink: /
-title: "Welcome to Masakazu Emoto's website!"
+title: "Masakazu Emoto"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Thanks for visiting my website!
+I am a **Specially Appointed Lecturer** at the Hitotsubashi Institute for Advanced Study (HIAS), Hitotsubashi University. I also hold a research appointment at the Graduate School of Economics, the University of Tokyo.
 
-I am an Specially Appointed Assistant Professor at Hitotsubashi Institute for Advanced Study (HIAS).
+My research is in macroeconomics and public economics. I develop heterogeneous-agent and firm-dynamics models to study tax evasion and avoidance, informality, inequality, economic growth, and fiscal policy.
 
-Research Interests
-------
-Macroeconomics, Heterogenous-Agent Models, Tax Evasion/Avoidance.
+## Current Positions
 
-Current Position
-------
-Specially Appointed Assistant Professor, Apr 2023- , Hitotsubashi Institute for Advanced Study, Japan, Tokyo
+- **Specially Appointed Lecturer**, Hitotsubashi Institute for Advanced Study, Hitotsubashi University, April 2023–present
+- **Project Researcher**, Graduate School of Economics, the University of Tokyo, July 2025–present  
+  Previous appointment: November 2024–March 2025
 
-Postdoc Reasearcher, Nov 2024- , University of Tokyo, Japan, Tokyo
+## Education
 
-Links
-------
-[My github page](https://github.com/Masakazu-Emoto)
+- Ph.D. in Economics, Kobe University, 2022
+- M.A. in Economics, Kobe University, 2019
 
-[Profile page at Researchmap](https://researchmap.jp/masakazu-emoto)
+## Research Interests
 
-[Profile page at Hitotsubashi University](https://hri.ad.hit-u.ac.jp/html/100001690_profile_ja.html)
+- Macroeconomics
+- Public Economics
+- Heterogeneous-Agent Models
+- Firm Dynamics
+- Tax Evasion and Tax Avoidance
+- Informal Economy
+
+## Grants
+
+- Grant-in-Aid for Early-Career Scientists, JSPS KAKENHI No. 24K16352, April 2024–present
+- Murata Science and Education Foundation Research Grant, July 2023–June 2024
+
+## Referee Service
+
+*Macroeconomic Dynamics*; *Mathematical Social Sciences*
+
+## Professional Profiles
+
+- [Hitotsubashi University researcher profile](https://hri.ad.hit-u.ac.jp/html/100001690_profile_en.html)
+- [researchmap](https://researchmap.jp/masakazu-emoto?lang=en)
+- [Google Scholar](https://scholar.google.co.jp/citations?user=QNN0RuwAAAAJ&hl=en)
+- [GitHub](https://github.com/Masakazu-Emoto)

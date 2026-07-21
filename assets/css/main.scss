@@ -2,42 +2,255 @@
 ---
 
 /*
- * This file controls what is imported from /_sass
+ * Academic Pages stylesheet entry point.
  *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * Colour roles are deliberately separated:
+ *   Primary   = Black     #000000
+ *   Deep Blue = Accent    #11114b
+ *   White     = Background #FFFFFF
+ *   Pale Blue = Secondary #E7EEF5
  */
 
 @import
-    "vendor/breakpoint/breakpoint",
-
-    "themes",
-    "theme/default",
-    "theme/dark",
-
-    "include/mixins",
-    "vendor/susy/susy",
-
-    "layout/reset",
-    "layout/base",
-
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
-
-    "layout/forms",
-
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands",
-    "vendor/magnific-popup/magnific-popup"
+  "vendor/breakpoint/breakpoint",
+  "themes",
+  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+  "include/mixins",
+  "vendor/susy/susy",
+  "layout/reset",
+  "layout/base",
+  "include/utilities",
+  "layout/tables",
+  "layout/buttons",
+  "layout/notices",
+  "layout/masthead",
+  "layout/navigation",
+  "layout/footer",
+  "syntax",
+  "layout/forms",
+  "layout/page",
+  "layout/archive",
+  "layout/sidebar",
+  "layout/json_cv"
 ;
+
+/* Deep Blue: site identity, masthead, headings, and major accents. */
+.masthead,
+.masthead__menu-item,
+.greedy-nav,
+.greedy-nav button {
+  background-color: #11114b;
+}
+
+.masthead {
+  border-bottom: 4px solid #FFFFFF;
+  box-shadow: 0 2px 10px rgba(17, 17, 75, 0.16);
+
+  &::after {
+    background: #FFFFFF;
+  }
+}
+
+.greedy-nav > .visible-links a,
+.masthead__menu-item > a,
+.greedy-nav button {
+  color: #FFFFFF;
+}
+
+.greedy-nav > .visible-links a:hover,
+.masthead__menu-item > a:hover {
+  color: #FFFFFF;
+}
+
+.greedy-nav .visible-links a::before {
+  background: #FFFFFF;
+}
+
+.masthead__menu-item.selected a,
+.masthead__menu-item.selected a:hover {
+  color: #FFFFFF;
+  border-bottom-color: #FFFFFF;
+}
+
+/* Overflow navigation remains a light panel with Primary-black text. */
+.greedy-nav .hidden-links {
+  background: #FFFFFF;
+  border-color: #E7EEF5;
+
+  a {
+    color: #000000;
+
+    &:hover {
+      color: #11114b;
+      background: #E7EEF5;
+    }
+  }
+}
+
+.page__title {
+  color: #11114b;
+  padding-bottom: 0.45em;
+  border-bottom: 4px solid #11114b;
+}
+
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  color: #11114b;
+}
+
+.page__content h2 {
+  border-bottom-color: #E7EEF5;
+}
+
+/* Primary black: body copy, ordinary links, and standard UI. */
+.page__content,
+.page__content p,
+.page__content li,
+.page__meta,
+.archive__item-excerpt,
+.author__bio,
+.author__urls-wrapper,
+.author__urls a {
+  color: #000000;
+}
+
+.page__content a,
+.author__urls a {
+  color: #000000;
+
+  &:hover {
+    color: #11114b;
+  }
+}
+
+/* Publication and profile titles are major accents, so they remain Deep Blue. */
+.archive__item-title,
+.archive__item-title a,
+.author__name {
+  color: #11114b;
+}
+
+.archive__item-title a:hover {
+  color: #11114b;
+  text-decoration: underline;
+}
+
+.author__avatar img {
+  border: 2px solid #11114b;
+  box-shadow: 0 0 0 4px #FFFFFF;
+}
+
+.author__urls {
+  border-top: 3px solid #11114b;
+  padding-top: 0.75em;
+}
+
+.page__footer {
+  background: #E7EEF5;
+  border-top: 4px solid #11114b;
+  color: #000000;
+}
+
+.page__footer a {
+  color: #000000;
+
+  &:hover {
+    color: #11114b;
+  }
+}
+
+.btn,
+.notice,
+.page__content table thead {
+  border-color: #11114b;
+}
+
+/* Primary button explicitly uses Primary black, not Deep Blue. */
+.btn--primary {
+  background-color: #000000;
+  color: #FFFFFF;
+
+  &:hover {
+    background-color: #11114b;
+    color: #FFFFFF;
+  }
+}
+
+.notice,
+.notice--primary,
+.page__content table thead {
+  background-color: #E7EEF5;
+  color: #000000;
+}
+
+/* Dark mode retains the same four-colour identity. */
+html[data-theme="dark"] {
+  .page__title,
+  .author__name {
+    color: #FFFFFF;
+  }
+
+  .page__content h2,
+  .page__content h3,
+  .page__content h4,
+  .archive__item-title,
+  .archive__item-title a {
+    color: #E7EEF5;
+  }
+
+  .page__content,
+  .page__content p,
+  .page__content li,
+  .page__meta,
+  .archive__item-excerpt,
+  .author__bio,
+  .author__urls-wrapper,
+  .author__urls a {
+    color: #FFFFFF;
+  }
+
+  .page__content a,
+  .author__urls a {
+    color: #E7EEF5;
+
+    &:hover {
+      color: #FFFFFF;
+    }
+  }
+
+  .page__content h2,
+  .author__urls {
+    border-color: #E7EEF5;
+  }
+
+  .author__avatar img {
+    border-color: #E7EEF5;
+    box-shadow: 0 0 0 4px #000000;
+  }
+
+  .page__footer {
+    background: #000000;
+    border-top-color: #11114b;
+    color: #FFFFFF;
+  }
+
+  .page__footer a {
+    color: #E7EEF5;
+  }
+
+  .greedy-nav .hidden-links {
+    background: #000000;
+    border-color: #E7EEF5;
+
+    a {
+      color: #FFFFFF;
+
+      &:hover {
+        color: #000000;
+        background: #E7EEF5;
+      }
+    }
+  }
+}

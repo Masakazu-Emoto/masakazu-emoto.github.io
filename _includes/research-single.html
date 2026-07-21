@@ -1,0 +1,28 @@
+{% include base_path %}
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <h2 class="archive__item-title" itemprop="headline">
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+  </h2>
+
+  {% if post.coauthors %}
+    <p><strong>{{ post.coauthors }}</strong></p>
+  {% endif %}
+
+  {% if post.status or post.venue %}
+    <p>
+      {% if post.status %}<strong>Status:</strong> {{ post.status }}{% endif %}
+      {% if post.status and post.venue %}<br>{% endif %}
+      {% if post.venue %}<strong>Series:</strong> {{ post.venue }}{% endif %}
+    </p>
+  {% endif %}
+
+  {% if post.excerpt %}
+    <div class="archive__item-excerpt" itemprop="description">
+      {{ post.excerpt | markdownify }}
+    </div>
+  {% endif %}
+
+  {% if post.paperurl %}
+    <p><a href="{{ post.paperurl }}">Paper</a></p>
+  {% endif %}
+</article>

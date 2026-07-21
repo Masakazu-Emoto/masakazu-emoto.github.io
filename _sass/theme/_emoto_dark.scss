@@ -1,0 +1,21 @@
+/* Masakazu Emoto Academic Pages theme — dark variant.
+   Uses the same four approved colours only. */
+
+html[data-theme="dark"] {
+  --global-base-color                : #000000;
+  --global-bg-color                  : #000000;
+  --global-footer-bg-color           : #000000;
+  --global-border-color              : #E7EEF5;
+  --global-dark-border-color         : #11114b;
+  --global-code-background-color     : #11114b;
+  --global-code-text-color           : #FFFFFF;
+  --global-fig-caption-color         : #E7EEF5;
+  --global-link-color                : #E7EEF5;
+  --global-link-color-hover          : #FFFFFF;
+  --global-link-color-visited        : #E7EEF5;
+  --global-masthead-link-color       : #FFFFFF;
+  --global-masthead-link-color-hover : #FFFFFF;
+  --global-text-color                : #FFFFFF;
+  --global-text-color-light          : #E7EEF5;
+  --global-thead-color               : #11114b;
+}
