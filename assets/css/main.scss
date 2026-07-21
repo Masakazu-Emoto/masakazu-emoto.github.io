@@ -14,8 +14,8 @@
 @import
   "vendor/breakpoint/breakpoint",
   "themes",
-  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+  "theme/emoto_light",
+  "theme/emoto_dark",
   "include/mixins",
   "vendor/susy/susy",
   "layout/reset",
@@ -32,7 +32,10 @@
   "layout/page",
   "layout/archive",
   "layout/sidebar",
-  "layout/json_cv"
+  "vendor/font-awesome/fontawesome",
+  "vendor/font-awesome/solid",
+  "vendor/font-awesome/brands",
+  "vendor/magnific-popup/magnific-popup"
 ;
 
 /* Deep Blue: site identity, masthead, headings, and major accents. */
