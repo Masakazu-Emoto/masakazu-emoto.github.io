@@ -26,7 +26,7 @@ redirect_from:
 
 ## Research Fields
 
-Macroeconomics; Public Economics; Heterogeneous-Agent Models; Firm Dynamics; Tax Evasion and Avoidance; Informal Economy
+Macroeconomics; Public Economics; Heterogeneous-Agent Models; Tax Evasion and Avoidance
 
 ## Peer-Reviewed Publications
 
