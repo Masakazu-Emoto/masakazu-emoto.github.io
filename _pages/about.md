@@ -9,7 +9,7 @@ redirect_from:
 
 I am a **Specially Appointed Lecturer** at the Hitotsubashi Institute for Advanced Study (HIAS), Hitotsubashi University. I also hold a research appointment at the Graduate School of Economics, the University of Tokyo.
 
-My research is in macroeconomics and public economics. I develop heterogeneous-agent and firm-dynamics models to study tax evasion and avoidance, informality, inequality, economic growth, and fiscal policy.
+My research is in macroeconomics and public economics. I develop heterogeneous-agent models to study tax evasion and avoidance, informality, economic growth, and fiscal policy.
 
 ## Current Positions
 
@@ -27,9 +27,7 @@ My research is in macroeconomics and public economics. I develop heterogeneous-a
 - Macroeconomics
 - Public Economics
 - Heterogeneous-Agent Models
-- Firm Dynamics
 - Tax Evasion and Tax Avoidance
-- Informal Economy
 
 ## Grants
 
