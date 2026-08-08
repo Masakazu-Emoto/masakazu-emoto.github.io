@@ -17,7 +17,7 @@ redirect_from:
 
 ## Previous Position
 
-- **Specially Appointed Research Associate**, Faculty of Economics, Kanagawa University, April 2022–March 2023
+- **Specially Appointed Assistant Professor**, Faculty of Economics, Kanagawa University, April 2022–March 2023
 
 ## Education
 
