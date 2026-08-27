@@ -243,17 +243,23 @@ html[data-theme="dark"] {
     color: #E7EEF5;
   }
 
+  /* Overflow navigation: Deep Blue background with white text. */
   .greedy-nav .hidden-links {
-    background: #000000;
-    border-color: #E7EEF5;
-
-    a {
-      color: #FFFFFF;
-
-      &:hover {
-        color: #000000;
-        background: #E7EEF5;
-      }
+    background: #11114b;
+    border-color: #11114b;
+  
+    a,
+    a:visited,
+    a:hover,
+    a:focus,
+    a:active {
+      color: #FFFFFF !important;
+      background: #11114b !important;
+    }
+  
+    &::before,
+    &::after {
+      border-color: #11114b transparent !important;
     }
   }
 }
