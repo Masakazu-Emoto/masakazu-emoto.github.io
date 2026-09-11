@@ -67,16 +67,6 @@ Macroeconomics; Public Economics; Heterogeneous-Agent Models; Tax Evasion and Ta
 </div>
 </details>
 
-## Programming and Language Skills
-
-- **Programming:** MATLAB, Python, Julia, Fortran, LaTeX
-- **Language:** Japanese (Native)
-
-## Research Grants
-
-- **Grant-in-Aid for Early-Career Scientists**, JSPS KAKENHI No. 24K16352, April 2024–present
-- **Murata Science and Education Foundation Research Grant**, July 2023–June 2024
-
 <details class="cv-accordion">
 <summary class="cv-accordion__summary">Research Presentations</summary>
 <div class="cv-accordion__content" markdown="1">
@@ -123,10 +113,6 @@ Macroeconomics; Public Economics; Heterogeneous-Agent Models; Tax Evasion and Ta
 
 </div>
 </details>
-
-## Refereeing Services
-
-*Macroeconomic Dynamics*; *Mathematical Social Sciences*
 
 <details class="cv-accordion">
 <summary class="cv-accordion__summary">Teaching Experience</summary>
@@ -177,7 +163,16 @@ Macroeconomics; Public Economics; Heterogeneous-Agent Models; Tax Evasion and Ta
 </div>
 </details>
 
-## References
+## Research Grants
+
+- **Grant-in-Aid for Early-Career Scientists**, JSPS KAKENHI No. 24K16352, April 2024–present
+- **Murata Science and Education Foundation Research Grant**, July 2023–June 2024
+
+## Refereeing Services
+
+*Macroeconomic Dynamics*; *Mathematical Social Sciences*
+
+## Reference
 
 - **Tamotsu Nakamura**, Professor, Kobe University — [nakamura@econ.kobe-u.ac.jp](mailto:nakamura@econ.kobe-u.ac.jp)
 - **Takashi Kamihigashi**, Professor, Kobe University — [tkamihig@rieb.kobe-u.ac.jp](mailto:tkamihig@rieb.kobe-u.ac.jp)
