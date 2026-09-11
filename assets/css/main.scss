@@ -188,6 +188,95 @@
   color: #000000;
 }
 
+
+
+/* CV page: use Deep Blue for emphasized text and compact collapsible sections. */
+.cv-page strong,
+.cv-page strong a,
+.cv-page a strong {
+  color: #11114b;
+}
+
+.cv-page strong a:hover,
+.cv-page a:hover strong {
+  color: #11114b;
+  text-decoration: underline;
+}
+
+.cv-accordion {
+  margin: 1.6em 0;
+}
+
+.cv-accordion__summary {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  padding: 0 2.2em 0.45em 0;
+  border-bottom: 1px solid #E7EEF5;
+  color: #11114b;
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 1.4;
+  user-select: none;
+}
+
+.cv-accordion__summary::-webkit-details-marker {
+  display: none;
+}
+
+.cv-accordion__summary::marker {
+  content: "";
+}
+
+.cv-accordion__summary::after {
+  content: "+";
+  position: absolute;
+  right: 0.2em;
+  top: -0.08em;
+  color: #11114b;
+  font-size: 1.35em;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.cv-accordion[open] > .cv-accordion__summary::after {
+  content: "−";
+}
+
+.cv-accordion__summary:hover,
+.cv-accordion__summary:focus-visible {
+  color: #11114b;
+}
+
+.cv-accordion__summary:focus-visible {
+  outline: 2px solid #11114b;
+  outline-offset: 4px;
+}
+
+.cv-accordion__content {
+  padding-top: 0.8em;
+}
+
+html[data-theme="dark"] {
+  .cv-page strong,
+  .cv-page strong a,
+  .cv-page a strong,
+  .cv-accordion__summary,
+  .cv-accordion__summary::after,
+  .cv-accordion__summary:hover,
+  .cv-accordion__summary:focus-visible {
+    color: #E7EEF5;
+  }
+
+  .cv-accordion__summary {
+    border-bottom-color: #E7EEF5;
+  }
+
+  .cv-accordion__summary:focus-visible {
+    outline-color: #E7EEF5;
+  }
+}
+
 /* Dark mode retains the same four-colour identity. */
 html[data-theme="dark"] {
   .page__title,

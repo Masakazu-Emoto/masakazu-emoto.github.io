@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="cv-page" markdown="1">
+
 [**Download CV (PDF)**]({{ "/files/Masakazu_Emoto_CV.pdf" | relative_url }})
 
 ## Current Positions
@@ -32,7 +34,9 @@ redirect_from:
 
 Macroeconomics; Public Economics; Heterogeneous-Agent Models; Tax Evasion and Tax Avoidance
 
-## Research Activity
+<details class="cv-accordion">
+<summary class="cv-accordion__summary">Research Activity</summary>
+<div class="cv-accordion__content" markdown="1">
 
 ### Publication (Peer-Reviewed)
 
@@ -60,6 +64,9 @@ Macroeconomics; Public Economics; Heterogeneous-Agent Models; Tax Evasion and Ta
 
 {% endfor %}
 
+</div>
+</details>
+
 ## Programming and Language Skills
 
 - **Programming:** MATLAB, Python, Julia, Fortran, LaTeX
@@ -70,7 +77,9 @@ Macroeconomics; Public Economics; Heterogeneous-Agent Models; Tax Evasion and Ta
 - **Grant-in-Aid for Early-Career Scientists**, JSPS KAKENHI No. 24K16352, April 2024–present
 - **Murata Science and Education Foundation Research Grant**, July 2023–June 2024
 
-## Research Presentations
+<details class="cv-accordion">
+<summary class="cv-accordion__summary">Research Presentations</summary>
+<div class="cv-accordion__content" markdown="1">
 
 {% assign international_talks = site.talks | where: "presentation_category", "international" | sort: "date" | reverse %}
 {% assign domestic_talks = site.talks | where: "presentation_category", "domestic" | sort: "date" | reverse %}
@@ -112,11 +121,16 @@ Macroeconomics; Public Economics; Heterogeneous-Agent Models; Tax Evasion and Ta
   {% include presentation-entry.html post=post %}
 {% endfor %}
 
+</div>
+</details>
+
 ## Refereeing Services
 
 *Macroeconomic Dynamics*; *Mathematical Social Sciences*
 
-## Teaching Experience
+<details class="cv-accordion">
+<summary class="cv-accordion__summary">Teaching Experience</summary>
+<div class="cv-accordion__content" markdown="1">
 
 ### Hitotsubashi University
 
@@ -160,8 +174,13 @@ Macroeconomics; Public Economics; Heterogeneous-Agent Models; Tax Evasion and Ta
 **April 2018 — Teaching Assistant**
 - Intermediate Macroeconomics (Undergraduate)
 
+</div>
+</details>
+
 ## References
 
 - **Tamotsu Nakamura**, Professor, Kobe University — [nakamura@econ.kobe-u.ac.jp](mailto:nakamura@econ.kobe-u.ac.jp)
 - **Takashi Kamihigashi**, Professor, Kobe University — [tkamihig@rieb.kobe-u.ac.jp](mailto:tkamihig@rieb.kobe-u.ac.jp)
 - **Tomomi Miyazaki**, Professor, Kobe University — [miyazaki@econ.kobe-u.ac.jp](mailto:miyazaki@econ.kobe-u.ac.jp)
+
+</div>
