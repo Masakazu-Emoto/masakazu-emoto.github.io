@@ -190,6 +190,16 @@
 
 
 
+/* CV page headings must stay Deep Blue and bold, matching the rest of the site. */
+.cv-page h2,
+.cv-page h3,
+.cv-page h4,
+.cv-page h5,
+.cv-page h6 {
+  color: #11114b !important;
+  font-weight: 700;
+}
+
 /* CV page: use Deep Blue for emphasized text and compact collapsible sections. */
 .cv-page strong,
 .cv-page strong a,
@@ -258,6 +268,11 @@
 }
 
 html[data-theme="dark"] {
+  .cv-page h2,
+  .cv-page h3,
+  .cv-page h4,
+  .cv-page h5,
+  .cv-page h6,
   .cv-page strong,
   .cv-page strong a,
   .cv-page a strong,
