@@ -5,10 +5,10 @@
  * Academic Pages stylesheet entry point.
  *
  * Colour roles are deliberately separated:
- *   Primary   = Black     #000000
- *   Deep Blue = Accent    #11114b
+ *   Primary   = Black      #000000
+ *   Deep Blue = Accent     #11114b
  *   White     = Background #FFFFFF
- *   Pale Blue = Secondary #E7EEF5
+ *   Pale Blue = Secondary  #E7EEF5
  */
 
 @import
@@ -37,6 +37,11 @@
   "vendor/font-awesome/brands",
   "vendor/magnific-popup/magnific-popup"
 ;
+
+
+/* =========================================================
+   Header / Navigation
+   ========================================================= */
 
 /* Deep Blue: site identity, masthead, headings, and major accents. */
 .masthead,
@@ -76,7 +81,8 @@
   border-bottom-color: #FFFFFF;
 }
 
-/* Overflow navigation remains a light panel with Primary-black text. */
+
+/* Overflow navigation remains a light panel. */
 .greedy-nav .hidden-links {
   background: #FFFFFF;
   border-color: #E7EEF5;
@@ -90,6 +96,11 @@
     }
   }
 }
+
+
+/* =========================================================
+   Page headings
+   ========================================================= */
 
 .page__title {
   color: #11114b;
@@ -107,7 +118,11 @@
   border-bottom-color: #E7EEF5;
 }
 
-/* Primary black: body copy, ordinary links, and standard UI. */
+
+/* =========================================================
+   Body text and links
+   ========================================================= */
+
 .page__content,
 .page__content p,
 .page__content li,
@@ -128,7 +143,8 @@
   }
 }
 
-/* Publication and profile titles are major accents, so they remain Deep Blue. */
+
+/* Publication and profile titles */
 .archive__item-title,
 .archive__item-title a,
 .author__name {
@@ -140,15 +156,34 @@
   text-decoration: underline;
 }
 
+
+/* =========================================================
+   Profile photo
+   ========================================================= */
+
+/*
+ * Rectangular profile photo.
+ *
+ * border-radius: 0 !important;
+ * overrides the default Academic Pages circular avatar.
+ */
 .author__avatar img {
+  border-radius: 0 !important;
   border: 2px solid #11114b;
   box-shadow: 0 0 0 4px #FFFFFF;
 }
 
+
+/* Profile links */
 .author__urls {
   border-top: 3px solid #11114b;
   padding-top: 0.75em;
 }
+
+
+/* =========================================================
+   Footer
+   ========================================================= */
 
 .page__footer {
   background: #E7EEF5;
@@ -164,13 +199,17 @@
   }
 }
 
+
+/* =========================================================
+   Buttons / Notices / Tables
+   ========================================================= */
+
 .btn,
 .notice,
 .page__content table thead {
   border-color: #11114b;
 }
 
-/* Primary button explicitly uses Primary black, not Deep Blue. */
 .btn--primary {
   background-color: #000000;
   color: #FFFFFF;
@@ -189,8 +228,14 @@
 }
 
 
+/* =========================================================
+   CV Page
+   ========================================================= */
 
-/* CV page headings must stay Deep Blue and bold, matching the rest of the site. */
+/*
+ * CV section headings:
+ * Deep Blue + Bold
+ */
 .cv-page h2,
 .cv-page h3,
 .cv-page h4,
@@ -200,7 +245,11 @@
   font-weight: 700;
 }
 
-/* CV page: use Deep Blue for emphasized text and compact collapsible sections. */
+
+/*
+ * Emphasized text on CV page:
+ * Deep Blue
+ */
 .cv-page strong,
 .cv-page strong a,
 .cv-page a strong {
@@ -213,6 +262,14 @@
   text-decoration: underline;
 }
 
+
+/* =========================================================
+   CV Accordion
+   Research Activity
+   Research Presentations
+   Teaching Experience
+   ========================================================= */
+
 .cv-accordion {
   margin: 1.6em 0;
 }
@@ -221,15 +278,22 @@
   position: relative;
   display: block;
   cursor: pointer;
+
   padding: 0 2.2em 0.45em 0;
+
   border-bottom: 1px solid #E7EEF5;
+
   color: #11114b;
+
   font-size: 1.25em;
   font-weight: 700;
   line-height: 1.4;
+
   user-select: none;
 }
 
+
+/* Hide default disclosure triangle */
 .cv-accordion__summary::-webkit-details-marker {
   display: none;
 }
@@ -238,21 +302,31 @@
   content: "";
 }
 
+
+/* Plus sign */
 .cv-accordion__summary::after {
   content: "+";
+
   position: absolute;
+
   right: 0.2em;
   top: -0.08em;
+
   color: #11114b;
+
   font-size: 1.35em;
   font-weight: 500;
   line-height: 1;
 }
 
+
+/* Minus sign when open */
 .cv-accordion[open] > .cv-accordion__summary::after {
   content: "−";
 }
 
+
+/* Hover / focus */
 .cv-accordion__summary:hover,
 .cv-accordion__summary:focus-visible {
   color: #11114b;
@@ -263,11 +337,19 @@
   outline-offset: 4px;
 }
 
+
+/* Accordion content */
 .cv-accordion__content {
   padding-top: 0.8em;
 }
 
+
+/* =========================================================
+   CV Dark Mode
+   ========================================================= */
+
 html[data-theme="dark"] {
+
   .cv-page h2,
   .cv-page h3,
   .cv-page h4,
@@ -292,8 +374,13 @@ html[data-theme="dark"] {
   }
 }
 
-/* Dark mode retains the same four-colour identity. */
+
+/* =========================================================
+   General Dark Mode
+   ========================================================= */
+
 html[data-theme="dark"] {
+
   .page__title,
   .author__name {
     color: #FFFFFF;
@@ -332,10 +419,17 @@ html[data-theme="dark"] {
     border-color: #E7EEF5;
   }
 
+
+  /*
+   * Profile photo in dark mode.
+   * Remains rectangular.
+   */
   .author__avatar img {
+    border-radius: 0 !important;
     border-color: #E7EEF5;
     box-shadow: 0 0 0 4px #000000;
   }
+
 
   .page__footer {
     background: #000000;
@@ -347,11 +441,12 @@ html[data-theme="dark"] {
     color: #E7EEF5;
   }
 
-  /* Overflow navigation: Deep Blue background with white text. */
+
+  /* Overflow navigation */
   .greedy-nav .hidden-links {
     background: #11114b;
     border-color: #11114b;
-  
+
     a,
     a:visited,
     a:hover,
@@ -360,7 +455,7 @@ html[data-theme="dark"] {
       color: #FFFFFF !important;
       background: #11114b !important;
     }
-  
+
     &::before,
     &::after {
       border-color: #11114b transparent !important;
