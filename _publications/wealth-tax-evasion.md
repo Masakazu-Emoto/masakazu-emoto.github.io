@@ -4,9 +4,10 @@ collection: publications
 category: workingpapers
 order: 1
 permalink: /research/wealth-tax-evasion
-status: "Submitted"
 excerpt: "A stochastic growth model in which tax morale determines whether wealth-tax evasion lowers growth and generates a double-Pareto wealth distribution."
 paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5560058"
+wp_series: "SSRN Working Paper"
+wp_number: "5560058"
 ---
 
 [SSRN paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5560058)

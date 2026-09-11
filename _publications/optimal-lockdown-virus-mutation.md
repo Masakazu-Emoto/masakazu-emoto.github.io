@@ -5,10 +5,10 @@ category: workingpapers
 order: 4
 permalink: /research/optimal-lockdown-virus-mutation
 coauthors: "With Quentin Batista, Naoki Maezono, and Taisuke Nakata"
-status: "Submitted"
-venue: "CREPE Discussion Paper No. 187"
 excerpt: "An epimacro analysis of how deterministic and stochastic virus mutation change optimal lockdown intensity."
 paperurl: "https://www.crepe.e.u-tokyo.ac.jp/results/2026/crepedp187.html"
+wp_series: "CREPE Discussion Paper"
+wp_number: "187"
 ---
 
 [CREPE Discussion Paper No. 187](https://www.crepe.e.u-tokyo.ac.jp/results/2026/crepedp187.html)

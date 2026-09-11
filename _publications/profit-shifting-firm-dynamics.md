@@ -6,6 +6,8 @@ order: 3
 permalink: /research/profit-shifting-firm-dynamics
 excerpt: "A continuous-time heterogeneous-firm model separating tax-haven adoption, the intensive shifting margin, and international tax-rate competition."
 paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6994978"
+wp_series: "SSRN Working Paper"
+wp_number: "6994978"
 ---
 
 [SSRN paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6994978)

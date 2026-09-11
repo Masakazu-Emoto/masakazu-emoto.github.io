@@ -6,6 +6,8 @@ order: 5
 permalink: /research/intertemporal-elasticity-wealth-distribution
 coauthors: "With Tamotsu Nakamura"
 excerpt: "A heterogeneous-agent Ramsey model linking the intertemporal elasticity of substitution to transitional wealth-distribution dynamics."
+wp_series: "Kobe University Discussion Paper"
+wp_number: "2101"
 ---
 
 ## Abstract

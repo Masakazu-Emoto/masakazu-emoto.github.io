@@ -6,6 +6,8 @@ order: 2
 permalink: /research/dynamic-selection-informal-sector
 excerpt: "A firm-dynamics model showing how informality changes dynamic selection, long-run growth, the firm-size distribution, and welfare."
 paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7001022"
+wp_series: "SSRN Working Paper"
+wp_number: "7001022"
 ---
 
 [SSRN paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7001022)

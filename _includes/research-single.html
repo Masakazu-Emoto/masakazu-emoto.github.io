@@ -8,12 +8,16 @@
     <p><strong>{{ post.coauthors }}</strong></p>
   {% endif %}
 
-  {% if post.status or post.venue %}
+  {% if post.wp_series %}
     <p>
-      {% if post.status %}<strong>Status:</strong> {{ post.status }}{% endif %}
-      {% if post.status and post.venue %}<br>{% endif %}
-      {% if post.venue %}<strong>Series:</strong> {{ post.venue }}{% endif %}
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}">{{ post.wp_series }} No. {{ post.wp_number }}</a>
+      {% else %}
+        {{ post.wp_series }} No. {{ post.wp_number }}
+      {% endif %}
     </p>
+  {% elsif post.venue %}
+    <p>{{ post.venue }}</p>
   {% endif %}
 
   {% if post.excerpt %}
@@ -22,7 +26,7 @@
     </div>
   {% endif %}
 
-  {% if post.paperurl %}
+  {% if post.paperurl and post.wp_series == nil %}
     <p><a href="{{ post.paperurl }}">Paper</a></p>
   {% endif %}
 </article>
