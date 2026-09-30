@@ -131,34 +131,21 @@ Macroeconomics; Public Economics; Heterogeneous-Agent Models; Tax Evasion and Ta
 
 ### Kobe University
 
-**Autumn 2021 — Teaching Assistant**
-- Macroeconomics I (Core, Graduate)
+**Instructor — Mathematics Preparatory Program for Incoming Graduate Students (Math Camp)**
 
-**April 2021 — Math Camp / Teaching Assistant**
-- Math Camp (Graduate)
-- Computational Methods in Economics (Graduate)
+- **March 2021** — Math Camp (Graduate)
+- **March 2020** — Math Camp (Graduate)
 
-**Autumn 2020 — Teaching Assistant**
-- Macroeconomics IA (Core, Graduate)
-- Macroeconomics IB (Core, Graduate)
+**Teaching Assistant**
 
-**April 2020 — Math Camp / Teaching Assistant**
-- Math Camp (Graduate)
-- Macroeconomics (Graduate)
-
-**Autumn 2019 — Teaching Assistant**
-- Quantitative Methods for Monetary Economics (Graduate)
-- Macroeconomics IA (Core, Graduate)
-
-**April 2019 — Teaching Assistant**
-- Microeconomics IA (Core, Graduate)
-- Microeconomics IB (Core, Graduate)
-
-**Autumn 2018 — Teaching Assistant**
-- Quantitative Methods for Monetary Economics (Graduate)
-
-**April 2018 — Teaching Assistant**
-- Intermediate Macroeconomics (Undergraduate)
+- **Fall Semester 2021** — Macroeconomics I (Graduate)
+- **Spring Semester 2021** — Computational Methods in Economics (Graduate)
+- **Fall Semester 2020** — Macroeconomics IA and IB (Graduate)
+- **Spring Semester 2020** — Macroeconomics (Graduate)
+- **Fall Semester 2019** — Quantitative Methods for Monetary Economics; Macroeconomics IA (Graduate)
+- **Spring Semester 2019** — Microeconomics IA and IB (Graduate)
+- **Fall Semester 2018** — Quantitative Methods for Monetary Economics (Graduate)
+- **Spring Semester 2018** — Intermediate Macroeconomics (Undergraduate)
 
 </div>
 </details>
