@@ -122,7 +122,7 @@ Macroeconomics; Public Economics; Heterogeneous-Agent Models; Tax Evasion and Ta
 
 **Instructor**
 
-- **Fall–Winter Semester 2026** — Intermediate Macroeconomics (Undergraduate and Graduate; co-taught)
+- **Fall Semester 2026** — Intermediate Macroeconomics (Undergraduate and Graduate; co-taught)
 
 ### Kanagawa University
 
