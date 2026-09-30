@@ -8,7 +8,10 @@ coauthors: "With Tamotsu Nakamura"
 excerpt: "A heterogeneous-agent Ramsey model linking the intertemporal elasticity of substitution to transitional wealth-distribution dynamics."
 wp_series: "Kobe University Discussion Paper"
 wp_number: "2101"
+paperurl: "https://da.lib.kobe-u.ac.jp/da/kernel/81012524/"
 ---
+
+[Kobe University Discussion Paper No. 2101](https://da.lib.kobe-u.ac.jp/da/kernel/81012524/)
 
 ## Abstract
 
