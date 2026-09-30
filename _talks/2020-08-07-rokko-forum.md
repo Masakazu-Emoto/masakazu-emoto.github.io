@@ -4,6 +4,6 @@ collection: talks
 presentation_category: "workshop"
 venue: "Rokko Forum"
 date: 2020-08-07
-location: "Kobe University"
+location: "Kobe University (Online)"
 ---
 
