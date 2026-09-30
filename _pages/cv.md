@@ -120,21 +120,24 @@ Macroeconomics; Public Economics; Heterogeneous-Agent Models; Tax Evasion and Ta
 
 ### Hitotsubashi University
 
-**2026 — Instructor**
-- Intermediate Macroeconomics (Undergraduate and Graduate)
+**Instructor**
+
+- **Fall–Winter Semester 2026** — Intermediate Macroeconomics (Undergraduate and Graduate; co-taught)
 
 ### Kanagawa University
 
-**Spring 2022 — Instructor**
-- Macroeconomics (Undergraduate)
-- Microeconomics (Undergraduate)
+**Instructor**
+
+- **Spring Semester 2022** — Macroeconomics (Undergraduate)
+- **Spring Semester 2022** — Microeconomics (Undergraduate)
+- **Fall Semester 2022** — Microeconomics (Undergraduate)
 
 ### Kobe University
 
-**Instructor — Mathematics Preparatory Program for Incoming Graduate Students (Math Camp)**
+**Instructor**
 
-- **March 2021** — Math Camp (Graduate)
-- **March 2020** — Math Camp (Graduate)
+- **March 2021** — Mathematics Preparatory Program for Incoming Graduate Students (Math Camp)
+- **March 2020** — Mathematics Preparatory Program for Incoming Graduate Students (Math Camp)
 
 **Teaching Assistant**
 
